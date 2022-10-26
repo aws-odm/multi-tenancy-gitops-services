@@ -113,6 +113,7 @@ spec:
         resources:
           requests:
             storage: 8Gi
+        storageClassName: ocs-storagecluster-cephfs
         volumeMode: Filesystem
       status:
         phase: Pending
