@@ -27,10 +27,11 @@ spec:
   environment:
     dbType: db2oltp
     database:
-      name: bludb
+      name: bludb #ODMDB
     instance:
       password: Passw0rd
       registry:
+      # DB2_32K_DEVICE_SUPPORT: "ON"
         DB2_4K_DEVICE_SUPPORT: "ON"
   addOns:    
     rest:     
