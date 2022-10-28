@@ -205,10 +205,10 @@ spec:
     #  odm_configuration:
   odm_configuration:
     decisionCenter:
-      enabled: true
+      enabled: false
     decisionServerRuntime:
       enabled: true
     decisionRunner:
-      enabled: true
+      enabled: false
     livenessProbe:
       initialDelaySeconds: 500
